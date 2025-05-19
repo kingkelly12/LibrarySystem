@@ -107,11 +107,7 @@ book2 = Books("Design Patterns", "Erich Gamma, Richard Helm, Ralph Johnson, John
 
 librarian_one.record_new_book(book1)
 librarian_one.record_new_book(book2)
-
 librarian_one.lend_book("Code Complete", "Mary")
-
 librarian_one.track_borrowed_books()
-
 librarian_one.receive_returned_book("Code Complete")
-
 librarian_one.track_borrowed_books()
